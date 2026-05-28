@@ -1,0 +1,28 @@
+FoundryNet Forge MCP — License
+
+Copyright (c) 2026 FoundryNet. All rights reserved.
+
+This repository contains README + reference metadata for the FoundryNet Forge
+MCP server. The server software itself is proprietary and commercial.
+
+Commercial license, free tier available.
+
+- Free tier:   100 tool calls/month, 4 read-only tools, no payment.
+- Pro tier:    $49/month, all 11 tools, 10,000 tool calls/month.
+- Enterprise:  custom — foundrynet@proton.me.
+
+Use of the hosted FoundryNet Forge MCP server (or any derivative service
+operated by a third party) is granted under the Forge Terms of Service.
+Sign up + read the current ToS at https://foundrynet.io/signup.
+
+The contents of this repository — README, metadata, install snippets — are
+made available so users and MCP directory crawlers can discover the server.
+You may freely link to, quote, embed, or redistribute the README contents,
+including the install snippets, for the purpose of using the hosted Forge
+service.
+
+You may NOT reverse-engineer, reimplement, or operate a derivative MCP
+server claiming the FoundryNet, Forge, or MINT Attested name or trademarks
+without written permission.
+
+Contact: foundrynet@proton.me
