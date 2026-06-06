@@ -1,0 +1,42 @@
+# Smithery listing metadata — FoundryNet Forge MCP
+# Scope stays @foundrynet/forge so Smithery RE-INDEXES the existing listing
+# (do not rename the scope — that would create a new, empty listing).
+name: "@foundrynet/forge"
+displayName: "FoundryNet — Industrial Machine Intelligence"
+description: >-
+  Natural language to machine action. Cross-manufacturer industrial telemetry
+  normalization across 16 OEM families with thousands of confirmed field mappings.
+  14 MCP tools for machine identity, normalization, history, plain-English
+  automation, and tamper-evident on-chain (MINT) work attestation.
+
+# Hosted, URL-based ("external") server — Smithery's Gateway proxies user traffic
+# to the upstream Railway SSE endpoint and injects the user's fnet_ Bearer key.
+startCommand:
+  type: http
+  url: "https://foundrynet-mcp-production.up.railway.app/sse"
+  transport: sse
+  configSchema:
+    type: object
+    required:
+      - api_key
+    properties:
+      api_key:
+        type: string
+        title: "FoundryNet API key"
+        description: "fnet_ Bearer key — get one free at foundrynet.io/signup"
+
+homepage: "https://foundrynet.io"
+documentationUrl: "https://foundrynet.io/docs"
+license: "Proprietary"
+keywords:
+  - industrial
+  - manufacturing
+  - machine-identity
+  - cnc
+  - robotics
+  - normalization
+  - iot
+  - automation
+  - mint
+  - solana
+  - attestation
