@@ -1,6 +1,8 @@
-# FoundryNet Forge MCP
+# # FoundryNet — Industrial Machine Intelligence
 
-> **Plain English in. Autonomous action out.** Watch any signal across 16 OEM families. When a condition matches, Forge fires the webhook or alert you wired and anchors a tamper-evident hash of the action on Solana.
+> **Cross-OEM telemetry normalization for Fanuc, Siemens, Haas, 
+DMG Mori, Mazak. Plain-English automation across mixed 
+manufacturing fleets. 14 MCP tools over SSE.
 
 [![MINT Attested](https://img.shields.io/badge/MINT-Attested-d4af37?style=for-the-badge&labelColor=08080d)](https://physicalmcp.vercel.app/#mint)
 [![Listed on PhysicalMCP](https://img.shields.io/badge/Listed%20on-PhysicalMCP-2dbb78?style=for-the-badge&labelColor=08080d)](https://physicalmcp.vercel.app/)
