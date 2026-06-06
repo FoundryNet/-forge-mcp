@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.json",
+  "name": "io.github.foundrynet/forge-mcp",
+  "title": "FoundryNet — Industrial Machine Intelligence",
+  "description": "Natural language to machine action. Cross-manufacturer industrial telemetry normalization across 16 OEM families with thousands of confirmed field mappings. 14 MCP tools for machine identity, normalization, history, plain-English automation, and tamper-evident on-chain (MINT) work attestation.",
+  "version": "1.1.0",
+  "repository": {
+    "url": "https://github.com/foundrynet/forge-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://foundrynet.io",
+  "keywords": [
+    "industrial",
+    "manufacturing",
+    "machine-identity",
+    "cnc",
+    "plc",
+    "robotics",
+    "telemetry",
+    "normalization",
+    "iot",
+    "automation",
+    "fanuc",
+    "siemens",
+    "haas",
+    "dmg-mori",
+    "opc-ua",
+    "modbus",
+    "mint",
+    "solana",
+    "attestation"
+  ],
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://foundrynet-mcp-production.up.railway.app/sse"
+    }
+  ]
+}
